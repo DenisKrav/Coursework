@@ -66,13 +66,13 @@ namespace Coursework
 				httpClient = new HttpClient(socketsHandler);
 
 				ByteArrayContent content = new ByteArrayContent(convImg);
-				// определяем данные запроса
+				// визначаємо дані запиту
 				using HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, "http://localhost:8181/photoinf");
-				// установка отправляемого содержимого
+				// встановлення контенту, для відправки
 				request.Content = content;
-				// отправляем запрос
+				// відправка запиту
 				using HttpResponseMessage response = await httpClient.SendAsync(request);
-				// получаем ответ
+				// отримання відповіді
 				string responseText = await response.Content.ReadAsStringAsync();
 
 				imageInf.ImageColors = GetListColorsFromString(responseText);

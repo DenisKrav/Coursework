@@ -24,3 +24,4 @@ C:\Проэкты (програмирование)\CSharp\ТПро\Coursework\Co
 C:\Проэкты (програмирование)\CSharp\ТПро\Coursework\Coursework\obj\Debug\net8.0-windows\Coursework.csproj.AssemblyReference.cache
 C:\Проэкты (програмирование)\CSharp\ТПро\Coursework\Coursework\obj\Debug\net8.0-windows\App.baml
 C:\Проэкты (програмирование)\CSharp\ТПро\Coursework\Coursework\obj\Debug\net8.0-windows\Coursework.csproj.Up2Date
+C:\Проэкты (програмирование)\CSharp\ТПро\Coursework\Coursework\obj\Debug\net8.0-windows\Coursework.sourcelink.json

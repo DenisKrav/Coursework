@@ -21,7 +21,6 @@
             <StackPanel>
                 <Button x:Name="downloadBtn" FontSize="18" Click="downloadBtn_Click">Завантажити фото</Button>
                 <Button x:Name="processBtn" FontSize="18" Margin="0 20 0 20" Click="processBtn_Click">Визначити кольори</Button>
-                <!--Можливі помилки-->
                 <Label FontSize="18" Margin="40 10 0 10" HorizontalAlignment="Center">Головні кольори:</Label>
                 <ListBox x:Name="colorsListBox" Height="300" FontSize="18" Margin="40 10 0 10" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible">
                 </ListBox>
